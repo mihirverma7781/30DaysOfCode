@@ -1,0 +1,80 @@
+//Day 1 used Git commands
+
+-->// git initial setup
+git config --global user.name "your_usernsme"
+git config --global user.email "your_email"
+
+
+-->//to initialize a folder to git
+git init
+
+-->//to add content to staging area
+git add file_name
+
+-->//to commit a req
+git commit -m "any message related to commit"
+
+-->//to check status of req
+git status
+
+-->//to connect remote repository to github repo
+git remote add origin URL_Of_Gihub_repo
+
+-->//to push request
+git push origin branch_name
+
+-->//for pulling a repo
+git pull origin branch_name
+
+-->//to see commit messages
+git log
+
+-->// to see changes only
+git log -p
+
+-->//to ignore any files for pushing
+touch .gitignore {into this file write the name of file or folder you want to ignore}
+ 
+
+-->//deleting git repo from the folder
+rm -rf .git
+
+-->//clonong a git repo
+git clone "git repo url"
+
+-->// to check any diff between before and after editing a file
+git diff
+
+-->//commit direclty without going through staging
+git commit -a -m "message"
+
+-->// to see logs prettier
+git log --pretty short /
+git log --pretty oneline
+
+-->//unstaging a file
+git restore --staged file_name
+
+-->//restoring files to last commit
+git checkout --file_name
+
+-->//making alias (commands shorter)
+git config --global alias.shorter_name name_of_command
+
+-->//creating a branch out of master branch
+git checkout -b branch_name
+
+-->//switching to any branch
+git checkout branch_name
+
+-->//pushing branches
+gir push origin branch_name:branch_name_on_github
+
+-->//deleting branch on console
+git branch -d branch_name
+
+-->//deleting branch from github
+git push -d origin branch_name
+
+-->//merging branches
+git merge clearout
