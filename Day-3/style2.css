@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: rgb(248, 248, 248);
+  width: 700px;
+  /* height: 100vh; */
+  margin: 20px 0 0 50px;
+  /* grid container */
+  display: grid;
+
+  /* grid items */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px 60px 80px 400px 50px;
+
+  /* grid gaps */
+  grid-gap: 20px 20px;
+  /* grid-row-gap: 20px;
+    grid-column-gap: 30px; */
+
+  /* grid positioning */
+  grid-template-areas:
+    "header header header"
+    "menu menu menu"
+    "box1 box2 sidebar"
+    "content content sidebar"
+    "footer footer footer";
+}
+.item {
+  color: white;
+  font-size: 25px;
+}
+.item1 {
+  background-color: rgb(255, 187, 0);
+  grid-area: header;
+}
+.item2 {
+  background-color: red;
+  grid-area: menu;
+}
+.item3 {
+  background-color: rgb(208, 255, 0);
+  grid-area: box1;
+}
+.item4 {
+  background-color: rgb(0, 252, 84);
+  grid-area: box2;
+}
+.item5 {
+  background-color: rgb(149, 0, 255);
+  grid-area: sidebar;
+}
+.item6 {
+  background-color: rgb(25, 0, 255);
+  grid-area: content;
+}
+.item7 {
+  background-color: rgb(9, 255, 0);
+  grid-area: footer;
+}
