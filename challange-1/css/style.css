@@ -1,0 +1,491 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+:root{
+    --primary-color:#3874e4;
+    --secondary-color:rgb(0, 162, 255);
+    --shadow--color:rgb(233, 233, 233);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid black; */
+    align-items: center;
+    box-shadow: 3px 3px 5px var(--shadow--color);
+    margin-bottom: .5em;
+}
+p{
+    font-size: 1rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.2rem;
+    margin: 0px;
+    padding: 0px;
+}
+.nav h3{
+    padding: 8px;
+}
+.links{
+    /* border: 2px solid black; */
+    margin-left:35em;
+    right: 12em;
+    position: absolute;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin:0 15px 0 15px;
+    width: max-content;
+}
+a{
+    font-size: 1rem;
+    padding: 3px;
+    text-decoration: none;
+    color: black;}
+
+.links a{
+    font-size: .9rem;
+    color: black;
+    font-weight: 500;
+}
+strong{
+    font-weight: lighter;
+}
+.navbtn{
+    display:flex;
+    position: absolute;
+    right: 1em;
+    /* border: 2px solid black; */
+
+}
+.btn{
+    border-radius: 2px;
+    margin: 0 10px 0 10px;
+    padding: 7px 13px 7px 13px;
+    /* border: 2px solid black; */
+    font-size: .8rem;
+    font-weight: 100;
+}
+#btn1{
+    padding-left:17px;
+    padding-right: 17px;
+    border: 1px solid var(--shadow--color);
+box-shadow: 2px 2px 3px var(--shadow--color);
+
+
+}
+#btn2{
+background-color: var(--secondary-color);
+color: white;
+box-shadow: 2px 2px 3px var(--shadow--color);
+}
+.main{
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+    /* border: 2px solid black; */
+    
+}
+.maintext{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    /* border: 2px solid black; */
+    padding: 1em 2.5em 1em 2.5em;
+
+}
+.mainimage{
+    display: flex;
+    width:60%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    max-height: 278px;
+
+}
+.mainimage img{
+    width: 70%;
+    height: auto;
+}
+.bar{
+    margin-top: 5em;
+    /* border: 2px solid black; */
+    display: flex;
+    width: 80%;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px var(--shadow--color);
+    margin-bottom: 2em;
+    
+}
+.bar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.bar li{
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.bar p{
+    margin: 0px;
+    padding:.2em 0 0 1em;
+}
+.cardh{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin: 2em 0 2em 0;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 320px;
+    margin-bottom: 3em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+display: flex;
+flex-direction: column;
+width: 30%;
+padding: 2em;
+border-radius: 10px;
+box-shadow: 4px 4px 5px var(--shadow--color);
+    background: linear-gradient(to left, #33ccff 0%, #3399ff 100%);
+color: white;
+}
+.card p{
+    font-size: .8rem;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.courseinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+/*  */
+.fullcard{
+    margin: 3em 0 3em 0;
+    /* border: 2px solid black; */
+    background: linear-gradient(to left, #33ccff 0%, #3399ff 100%);
+    box-shadow: 4px 4px 5px var(--shadow--color);
+    width: 80%;
+    display: flex;
+    align-self: center;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+.fullleft{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    color: white;
+
+}
+.fcard{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+.fcourseinfo{
+    display: flex;
+    
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.fcourseinfo div{
+    margin-right: 4em;
+    width: max-content;
+}
+.fcard p{
+    font-size: .8rem;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.fullright{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    color: white;
+    width: 30%;
+    padding: 1.2em;
+    font-weight: 500;
+    line-height: 1em;
+}
+.fullright p{
+    font-size: .9rem;
+}
+/*  */
+.cardh2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* border: 2px solid black; */
+    box-shadow: 4px 4px 5px var(--shadow--color);
+border-radius: 1px;
+    align-self: center;
+    margin: 2em 0 2em 0;
+    line-height: 0rem;
+    align-items: center;
+}
+/*  */
+.mainic{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    margin: 3em  0 3em 0;
+}
+
+.imagecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    width: 25%;
+    /* border: 2px solid black; */
+
+}
+.imagecard img{
+    width: 80%;
+    height: auto;
+}
+.imagecard p{
+    font-size: .7rem;
+    line-height: 1.5em;
+}
+/*  */
+.footer
+{
+    display: flex;
+    /* border: 2px solid black; */
+    background: linear-gradient(to left, #33ccff 0%, #3399ff 100%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px var(--shadow--color);
+    color: white;
+    width: 100%;
+    /* height: 80vh; */
+    flex-direction: column;
+}
+.footermain{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 0 0 4em;
+}
+.footermain p{
+    font-size: .8rem;
+    line-height: 2em;
+}
+.ham{
+display:none;
+}
+.flist{
+    display: flex;
+    justify-content: space-around;
+}
+.footerclist h4{
+    font-weight: bolder;
+    margin-left: 2em;
+}
+.footerclist{
+    width: 20%;
+    /* border: 2px solid red; */
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(179, 179, 179);
+}
+.footerclist ul{
+    display: flex;
+    flex-direction: column;
+}
+.footerclist li{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+.copyright{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    justify-self: self-end;
+    margin-top: 2em;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+    .fcourseinfo div {
+        margin-right: 2em;
+    }
+    
+    .footerclist {
+        width: 30%;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+
+.ham {
+    display: block;
+}
+
+.links {
+    display: none;
+}
+.flist {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footerclist {
+    width: 80%;
+    margin: 0 0 2em 0;
+}
+
+.mainic {
+    height: fit-content;
+    flex-direction: column;
+}
+
+.mainic {
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecard {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+p.small {text-align: center;line-height: 1.5em;}
+
+.cards {flex-direction: column;height: fit-content;justify-content: center;align-items: center;}
+
+.card {
+    width: 70%;
+    margin: 0 0 2em 0;
+}
+
+
+.bar li p {font-size: 0.5rem;}
+
+
+
+.baritem {
+    width: 33%;
+}
+
+.bar ul {
+    padding: 0;
+}
+
+.main {
+    flex-direction: column-reverse;
+}
+
+.maintext {
+    width: 96%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
+
+.mainimage {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media only screen and (max-width:320px){
+    #btn1 {
+        margin: 1;
+    }
+    
+    .btn {
+        margin: 0 .3em;
+    }
+    
+    .bar {
+        width: 100%;
+    }
+    
+    .fullcard {
+        flex-direction: column;
+        width: 90%;
+    }
+  
+    .fullleft {
+        width: 100%;
+    }
+    
+    .fcard {
+        text-align: center;
+    }
+    
+    .fduration {
+        margin: 0;
+    }
+    
+    .fproject {
+        margin: 0;
+    }
+    
+    .fcourseinfo div {
+        margin: 0;
+    }
+    
+    .fcourseinfo {
+        justify-content: space-evenly;
+    }
+    
+    .fullright {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    
+    .fullright p {
+        text-align: center;
+    }
+}
