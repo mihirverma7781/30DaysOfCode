@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>ecommerce</title>
+    <!-- icon header -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+
+  </head>
+  <body>
+
+
+    <div class="modal-parent" id="modal-parent">
+      <div class="modal">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          eveniet amet excepturi magni voluptatum illo quo id ipsa, beatae
+          praesentium delectus numquam assumenda temporibus! Alias, esse.
+          Ducimus at voluptatem labore quas impedit iure, in cum dolore
+          repudiandae quam magni facilis alias et accusantium doloribus nam,
+          ullam quibusdam nesciunt voluptates! Odio illum libero nulla facilis
+          asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         
+        </p>
+        <span class="X" draggable="true" id="X" onclick="disappear()">&times;</span>
+      </div>
+    </div>
+    
+<!-- ham -->
+<div class="ham-parent" id="ham-parent">
+  <div class="hamburger">
+   <ul class="hamlists">
+     <li id="item1"><a href="">Home</a> </li>
+     <li id="item2"><a href="">About Us</a> </li>
+     <li id="item3"><a href="">Contact</a> </li>
+     <li id="item4"><a href="">Address</a> </li>
+     <li id="item5"><a href="">Queries</a> </li>
+   </ul>
+    <span class="X" draggable="true" id="X" onclick="disappear2()">&times;</span>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <div id="container">
+      <div id="nav">
+        <nav class="navbar">
+            <div class="ham">
+              <img src="https://img.icons8.com/fluent/48/000000/menu--v1.png" onclick="appear2()"/>
+            </div>
+          <div id="navlogo" class="navlogo">
+            <img src="img/logo.png" alt="" srcset="" />
+          </div>
+          <div class="radiobtn">
+              
+              <input type="radio" name="Delivery" id="">
+              <label for="Delivery">Delivery</label>
+              <input type="radio" name="Delivery" id="">
+              <label for="Delivery">Pick Up</label>
+            </option>
+          </div>
+          <div class="textplace">
+            <img src="https://img.icons8.com/nolan/64/edit--v1.png"/>
+              <input type="text" placeholder="Enter Address">
+          </div>
+<div class="details">
+<img src="/img/icons8-person-40.png" alt="" srcset="">
+<a href="#">Details</a>
+</div>
+        </nav>
+      </div>
+
+<div class="navcat">
+<ul>
+  <li id="item-1"><a href="">Cat-1</a></li>
+  <li id="item-2"><a href="">Cat-2</a></li>
+  <li id="item-3"><a href="">Cat-3</a></li>
+  <li id="item-4"><a href="">Cat-4</a></li>
+  <li id="item-5"><a href="">Cat-5</a></li>
+  <li id="item-6"><a href="">Cat-6</a></li>
+  <li id="item-7"><a href="">Cat-7</a></li>
+  <li id="item-8"><a href="">Cat-8</a></li>
+</ul>
+</div>
+
+
+<div class="main" id="main">
+<div class="left">
+<div id="head-1">
+  <h3>Top Selling</h3>
+</div>
+<div id="card1">
+  <div id="c1">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    
+    <div class="btn">
+      <button class="btncard" onclick="appear()"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+    </div>
+  </div>
+
+  <div id="c2">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+
+    </div>
+
+  </div>
+
+  <div id="c3">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+
+    </div>
+
+  </div>
+</div>
+<!-- second grid -->
+
+
+<div id="head-1">
+  <h3>Top Selling</h3>
+</div>
+<div id="card1">
+  <div id="c1">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+    </div>
+  </div>
+
+  <div id="c2">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+
+    </div>
+
+  </div>
+
+  <div id="c3">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<!--  -->
+<!-- third grid -->
+
+
+<div id="head-1">
+  <h3>Top Selling</h3>
+</div>
+<div id="card1">
+  <div id="c1">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+    </div>
+  </div>
+
+  <div id="c2">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+
+    </div>
+
+  </div>
+
+  <div id="c3">
+    <div class="cardimg">
+      <img src="/img/c1.jpg" alt="" srcset="">
+    </div>
+
+    <div class="carddrops">
+      <label for="cars">Quantity:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">1kg</option>
+    <option value="saab">2kg</option>
+    <option value="opel">0.5kg</option>
+    <option value="audi">5kg</option>
+  </select>
+  <br>
+      <label for="car">Feature:</label>
+  <select name="car" id="car">
+    <option value="volvo">Sharbati</option>
+    <option value="saab">1000</option>
+    <option value="opel">125</option>
+    <option value="audi">765</option>
+  </select>
+    </div>
+    <div class="btn">
+      <button class="btncard"><i class="large material-icons">add_shopping_cart</i>Add to cart</button>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<!--  -->
+
+
+</div>
+
+
+<!-- rights sec -->
+<div class="right">
+  <div class="cartpos">
+    <img src="/img/cart_is_empty.png" alt="" srcset="">
+  </div>
+</div>
+
+</div>
+<!--main class ending -->
+
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
